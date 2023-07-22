@@ -1,0 +1,10 @@
+regex_pairs:
+  - regex: .*flake-utils\.lib\.eachDefaultSystem.*
+    response: kill yourself
+commands:
+  - name: "ayats"
+    sub_commands:
+      - name: "channels-to-flakes"
+        response: "https://ayats.org/blog/channels-to-flakes/"
+      - name: "nix-workflow"
+        response: "https://ayats.org/blog/nix-workflow/"
